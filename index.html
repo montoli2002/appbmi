@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang=it>
+<head>
+<title>Esempio app Ibrida</title>
+<script>
+<link rel=stylesheet href=http://getskeleton.com/dist/css/skeleton.css
+function saluta(){
+var saluto=document.GetElementyById("saluto");
+saluto.innerHTML="CIAOOOO";
+}
+</script>
+</head>
+<body>
+<button onclick=saluta()>CLICCAMI</button>
+<p id=saluto> </p>
+<div class= container>
+<div class= row>
+<div class="twelve columns">
+<h1>Calcola il BMI</h1>
+<p>Inserisci il tuo peso in kg e la tua altezza in metri(usa il punto per i decimali)</p>
+<form name=html action=#>
+<label fors="peso in kg">Your email</label>
+<input type=submit="calcola()" class=button- primary u-full-width value=calcola>
+<input type=submit="cancella()" class= u-full-width button primary value=annulla>
+<p id=calcola</p>
+</form>
+       <input class="u-full-width"placeholder="tst@mailbox.com" id="peso" type="number" recquired min=20.00 step=0.01 max=2.4>
+<label for="altezza">altezzain metri</label>
+<input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+<input class=u-full-width>placeholder="altezza">
+<label for"sesso">sesso</label>
+<input type=check box id=sesso value=f>femmina
+<input type=check box id=sesso value=f>maschio
+<br>
+<button class=button-primary>Calcola</button>
+<input type=reset class=button-danger value=Annulla>
+<br>
+<p id=risultato> </p>
+</form>
+</div>
+</div>
+</body>
+</html>
